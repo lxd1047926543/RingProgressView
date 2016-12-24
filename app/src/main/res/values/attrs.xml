@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ringprogressview">
+        <attr name="base_ring_color" format="color" />
+        <attr name="base_ring_radius" format="dimension" />
+        <attr name="base_ring_width" format="dimension" />
+        <attr name="arc_progress_style">
+            <enum name="solid" value="0" />
+            <enum name="gradient" value="1" />
+        </attr>
+        <attr name="arc_progress_color" format="color" />
+        <attr name="arc_progress_start_color" format="color" />
+        <attr name="arc_progress_end_color" format="color" />
+        <attr name="shadow_color" format="color" />
+        <attr name="shadow_width" format="dimension" />
+        <attr name="shadow_x_offset" format="dimension" />
+        <attr name="shadow_y_offset" format="dimension" />
+        <attr name="need_animation" format="boolean" />
+    </declare-styleable>
+</resources>
